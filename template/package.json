@@ -1,0 +1,21 @@
+{
+    "name": "{{ name }}",
+    "version": "0.0.1",
+    "description": "{{ description }}",
+    "main": "dist/app.js",
+    "scripts": {
+        "dev": "wepy build --watch",
+        "build": "cross-env NODE_ENV=production wepy build --no-cache",
+        "clean": "find ./dist -maxdepth 1 -not -name 'project.config.json' -not -name 'dist' | xargs rm -rf",
+        "web": "wepy build --output web"
+    },
+    "author": "{{ author }}",
+    "license": "MIT",
+    "dependencies": {
+        "wepy": "^1.7.1",
+        "wepy-async-function": "^1.4.5"
+    },
+    "devDependencies": {
+        "cross-env": "^5.1.1"
+    }
+}

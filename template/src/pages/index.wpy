@@ -1,0 +1,11 @@
+<script src="./index.ts" lang="typescript"></script>
+
+<template>
+  <view class="container">
+  </view>
+</template>
+
+<style lang="scss">
+
+</style>
+
