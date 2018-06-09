@@ -2,6 +2,7 @@
 
 <template>
   <view class="container">
+    {{msg}}
   </view>
 </template>
 
