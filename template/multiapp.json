@@ -1,0 +1,14 @@
+{
+    "prod": {
+        "appid": "{{appid}}",
+        "output": "dist"
+    },
+    "int": {
+        "appid": "{{appid_int}}",
+        "output": "dist"
+    },
+    "edog": {
+        "appid": "{{appid_edog}}",
+        "output": "dist"
+    }
+}

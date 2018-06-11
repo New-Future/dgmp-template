@@ -26,6 +26,16 @@ module.exports = {
             "message": "AppId",
             "default": "touristappid"
         },
+        "appid_int": {
+            "type": "string",
+            "required": false,
+            "message": "Integration environment AppId [int环境AppID可在multiapp.json中修改]",
+        },
+        "appid_edog": {
+            "type": "string",
+            "required": false,
+            "message": "Edog environment AppId [edog环境AppID可在multiapp.json中修改]",
+        },
         "author": {
             "type": "string",
             "label": "Author"
