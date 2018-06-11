@@ -2,7 +2,7 @@
 
 <template>
   <view class="container">
-    {{msg}}
+    \{{msg}}
   </view>
 </template>
 
