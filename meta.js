@@ -29,12 +29,12 @@ module.exports = {
         "appid_int": {
             "type": "string",
             "required": false,
-            "message": "Integration environment AppId [int环境AppID可在multiapp.json中修改]",
+            "message": "Integration AppId [int环境AppID可在multiapp.json修改]",
         },
         "appid_edog": {
             "type": "string",
             "required": false,
-            "message": "Edog environment AppId [edog环境AppID可在multiapp.json中修改]",
+            "message": "Edog AppId [edog环境AppID可在multiapp.json修改]",
         },
         "author": {
             "type": "string",
