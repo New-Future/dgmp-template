@@ -17,14 +17,13 @@ module.exports = {
         "description": {
             "type": "string",
             "required": true,
-            "label": "Project description[小程序描述]",
+            "label": "Project description [小程序描述]",
             "default": "A DG wepy example"
         },
         "appid": {
             "type": "string",
             "required": true,
-            "message": "AppId",
-            "default": "touristappid"
+            "message": "AppId"
         },
         "appid_int": {
             "type": "string",
