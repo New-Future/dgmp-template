@@ -1,5 +1,7 @@
 dist/
 web/
+{{dir_int}}
+{{dir_edog}}
 .DS_Store
 .wepycache
 

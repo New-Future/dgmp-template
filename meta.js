@@ -30,11 +30,23 @@ module.exports = {
             "required": false,
             "message": "Integration AppId [int环境AppID可在multiapp.json修改]",
         },
+        // "dir_int": {
+        //     "type": "string",
+        //     "required": false,
+        //     "default": "int",
+        //     "message": "Int folder [int环境输出目录可在multiapp.json修改]",
+        // },
         "appid_edog": {
             "type": "string",
             "required": false,
             "message": "Edog AppId [edog环境AppID可在multiapp.json修改]",
         },
+        // "dir_edog": {
+        //     "type": "string",
+        //     "required": false,
+        //     "default": "edog",
+        //     "message": "edog folder [edog环境输出目录可在multiapp.json修改]",
+        // },
         "author": {
             "type": "string",
             "label": "Author"
