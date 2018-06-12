@@ -7,8 +7,8 @@
     "scripts": {
         "dev": "wepy build --watch",
         "build": "cross-env NODE_ENV=production wepy build --no-cache",
-        "build:int": "npm run build && node tools/env int",
-        "build:edog": "npm run build && node tools/env edog",
+        "build:int": "node ./tools/env.js int",
+        "build:edog": "node ./tools/env.js edog",
         "clean": "find ./dist -maxdepth 1 -not -name 'project.config.json' -not -name 'dist' | xargs rm -rf",
         "web": "wepy build --output web"
     },

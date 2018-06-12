@@ -5,10 +5,10 @@
     },
     "int": {
         "appid": "{{appid_int}}",
-        "output": "dist"
+        "output": "{{dir_int||'dist'}}"
     },
     "edog": {
         "appid": "{{appid_edog}}",
-        "output": "dist"
+        "output": "{{dir_edog||'dist'}}"
     }
 }
